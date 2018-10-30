@@ -26,6 +26,7 @@ toTitle(toLowerSplited(camelCase)
 // 3. Title-to-Camel
 // Convert the Title Case back to camelCase
 const newTitle = "These Words Should Go In Pairs"
+
 const newCamel = text => {
   //   Insert function
 
