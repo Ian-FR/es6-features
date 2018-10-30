@@ -2,7 +2,7 @@
 
 // 1. Padded Number
 // Pad given single numbers in array to look like "10", "05", "16", "02"
-const nums = ['2', '4', '25', '10', '3']
+let nums = ['2', '4', '25', '10', '3']
 
 const paddedNum = nums.map(el => el.padStart(2, '0'))
 
